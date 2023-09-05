@@ -123,11 +123,6 @@ namespace ISO_MTI_DE
             public int PositionInTheMsg { get; set; }
             public string Name { get; set; }
             public string Value { get; set; }
-            public enum LengthType
-            {
-                Fixed,
-                Variable
-            }
         }
 
     }
